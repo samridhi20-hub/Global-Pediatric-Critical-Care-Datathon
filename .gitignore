@@ -1,0 +1,20 @@
+# Raw and derived datasets, dictionaries in spreadsheets, and packaged archives.
+**/*.csv
+**/*.tsv
+**/*.xlsx
+**/*.xls
+**/*.parquet
+**/*.feather
+**/*.zip
+**/*.tar
+**/*.gz
+**/*.7z
+
+# Local environments, secrets, and operating-system/editor artifacts.
+.venv/
+**/.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+**/.ipynb_checkpoints/
